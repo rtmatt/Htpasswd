@@ -1,6 +1,6 @@
 <?php
 
-namespace RTMatt\Htpsswd\Providers;
+namespace RTMatt\Htpasswd\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

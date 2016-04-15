@@ -1,6 +1,6 @@
 <?php
 
-namespace RTMatt\Htpsswd\Commands;
+namespace RTMatt\Htpasswd\Commands;
 
 use Illuminate\Console\Command;
 
