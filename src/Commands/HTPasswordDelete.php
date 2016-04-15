@@ -4,7 +4,7 @@ namespace RTMatt\Htpasswd\Commands;
 
 use Illuminate\Console\Command;
 
-class Htpasswd extends Command
+class HTPasswordDelete extends Command
 {
 
     /**
@@ -12,14 +12,14 @@ class Htpasswd extends Command
      *
      * @var string
      */
-    protected $signature = 'htpasswd:make {name}';
+    protected $signature = 'htpasswd:delete';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Generate Htpassword';
+    protected $description = 'Remove Htpassword';
 
 
     /**
@@ -41,7 +41,7 @@ class Htpasswd extends Command
     public function handle()
     {
         $manager = new \RTMatt\Htpasswd\HtpasswdManager($this);
-        $manager->create();
+        $manager->delete();
 
     }
 }

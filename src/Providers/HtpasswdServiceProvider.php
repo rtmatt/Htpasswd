@@ -8,7 +8,8 @@ class HtpasswdServiceProvider extends ServiceProvider
 {
 
     protected $commands = [
-        'RTMatt\Htpasswd\Commands\Htpasswd'
+        'RTMatt\Htpasswd\Commands\HTPasswordCreate',
+        'RTMatt\Htpasswd\Commands\HTPasswordDelete',
     ];
 
 
