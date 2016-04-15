@@ -11,7 +11,7 @@ composer require rtmatt/htpasswd
 ### Add Service Provider
 Add the following to the 'providers' array in `config/app.php`
 ``` php 
- \RTMatt\Htpasswd\Providers\HtpasswdServiceProvider::class,
+ RTMatt\Htpasswd\Providers\HtpasswdServiceProvider::class,
 ```
 ### Run
 
