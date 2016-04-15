@@ -12,7 +12,7 @@ class Htpasswd extends Command
      *
      * @var string
      */
-    protected $signature = 'htpwd {name}';
+    protected $signature = 'htpasswd {name}';
 
     /**
      * The console command description.
