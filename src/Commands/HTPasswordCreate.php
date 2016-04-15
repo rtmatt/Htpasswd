@@ -3,6 +3,7 @@
 namespace RTMatt\Htpasswd\Commands;
 
 use Illuminate\Console\Command;
+use RTMatt\Htpasswd\HtpasswdManager;
 
 class HTPasswordCreate extends Command
 {
@@ -40,7 +41,7 @@ class HTPasswordCreate extends Command
      */
     public function handle()
     {
-        $manager = new \RTMatt\Htpasswd\HtpasswdManager($this);
+        $manager = new HtpasswdManager($this);
         $manager->create();
 
     }
